@@ -1,11 +1,12 @@
 import './App.scss';
 
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { QuizContext } from './context/quiz';
 
 import Welcome from './componentes/Welcome';
 import Question from './componentes/Question'
-import { useEffect } from 'react';
+import GameOver from './componentes/GameOver'
+
 
 function App() {
   const [quizState, dispatch] = useContext(QuizContext)
@@ -20,6 +21,8 @@ function App() {
       <h1>Quiz de Programação</h1>
       {quizState.gameStage === 'Start' && <Welcome/>}
       {quizState.gameStage === 'Playing' && <Question/>}
+      {quizState.gameStage === 'End' && <GameOver/>}
+
 
     </div>
   );
