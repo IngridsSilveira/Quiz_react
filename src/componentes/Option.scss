@@ -1,11 +1,13 @@
 .option {
-    background-color: #3c0870;
+    background-color: #084170;
     border-radius: .5rem;
     padding: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
     opacity: .8;
     transition: 0.4s;
+    color: #fff;
+    font-weight: bolder;
     &:hover {
         opacity: 1;
     }
@@ -14,10 +16,10 @@
     margin-bottom: 0;
 }
 .correct {
-    background-color: #0bfc03;
+    background-color: #06b300;
     font-weight: bold;
 }
 .wrong {
-    background-color: #3c0e70;
+    background-color: #c40505;
     opacity: 0.4;
 }

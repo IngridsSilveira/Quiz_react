@@ -1,34 +1,34 @@
 const data = [
   {
-    question: "O que é Vanilla JavaScript?",
+    question: "No rádio o que significa o F do FM?",
     options: [
-      "JavaScript puro",
-      "Uma biblioteca JavaScript",
-      "Um framework JavaScript",
-      "Um compilador de JavaScript",
+      "Frequência",
+      "Físico",
+      "Final",
+      "Fogo",
     ],
-    answer: "JavaScript puro",
+    answer: "Frequência",
   },
   {
-    question: "Com qual instrução declaramos uma constante em JavaScript?",
-    options: ["const", "let", "var", "define"],
-    answer: "const",
+    question: "Qual é o músculo que trabalha mais no corpo humano?",
+    options: ["Masseter", "Coração", "Glúteo máximo", "Sóleo"],
+    answer: "Coração",
   },
   {
-    question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-    options: ["string", "number", "boolean", "float"],
-    answer: "float",
+    question: "Quais frutas são mais usadas para fazer vinho?",
+    options: ["Amoras", "Morangos", "Laranjas", "Uvas"],
+    answer: "Uvas",
   },
   {
-    question: "Qual dos métodos a seguir seleciona um elemento?",
-    options: ["querySelector", "parseInt", "sort", "reduce"],
-    answer: "querySelector",
+    question: "Qual criatura lendária é conhecida por matar cabras e sugar seu sangue?",
+    options: ["Chupa-Cabra", "Saci", "Homem-coelho", "Cuca"],
+    answer: "Chupa-Cabra",
   },
   {
     question:
-      "Qual destas propriedades da a quantidade de elementos de um array?",
-    options: ["qty", "length", "items", "index"],
-    answer: "length",
+      "Quem é que aparece quando Aladim esfrega a lâmpada?",
+    options: ["Abu", "Gênio", "Fada", "Iago"],
+    answer: "Gênio",
   },
 ];
 

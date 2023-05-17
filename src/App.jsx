@@ -6,6 +6,8 @@ import { QuizContext } from './context/quiz';
 import Welcome from './componentes/Welcome';
 import Question from './componentes/Question'
 import GameOver from './componentes/GameOver'
+import Footer from './componentes/Footer'
+
 
 
 function App() {
@@ -18,12 +20,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Quiz de Programação</h1>
       {quizState.gameStage === 'Start' && <Welcome/>}
       {quizState.gameStage === 'Playing' && <Question/>}
       {quizState.gameStage === 'End' && <GameOver/>}
 
-
+      <Footer/>
     </div>
   );
 }

@@ -6,7 +6,7 @@ const STAGES = ["Start", "Playing", "End"];
 const initialState = {
   gameStage: STAGES[0],
   questions,
-  currentQuestion: 1,
+  currentQuestion: 0,
   score: 0,
   answerSelected: false,
 };
